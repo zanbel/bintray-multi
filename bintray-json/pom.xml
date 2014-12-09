@@ -43,7 +43,7 @@
         <configuration>
           <artifacts>
             <artifact>
-              <file>bintray-upload-2.23.json</file>
+              <file>bintray-upload.json</file>
               <type>json</type>
             </artifact>
           </artifacts>
