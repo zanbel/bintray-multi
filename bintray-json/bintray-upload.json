@@ -1,6 +1,6 @@
 {
   "repo" : "test",
-  "userOrg" : "org.jfrog.test",
+  "userOrg" : "",
   "name" : "auto-upload",
   "desc" : "I was pushed completly automatically",
   "websiteUrl" : "https://github.com/feldan/bintray-multi",
