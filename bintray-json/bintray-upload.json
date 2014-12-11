@@ -10,7 +10,7 @@
   "labels" : ["cool", "awesome", "gorilla"],
   "publicDownloadNumbers" : false,
   "attributes": [{"attr1": ["val1", "val2"]}, {"attr2": ["val3"]}, {"attr3": ["val4"]}],
-  "filePaths" : [{"bintray-project" : ["org/jfrog/test/multi1", "org/jfrog/test/multi2", "org/jfrog/test/multi3"]}, {"MoveTo" : ["jfrog/danapp/module1/1.0-SNAPSHOT/module1-1.0-20141124.150253-1.jar"]}],
+  "filePaths" : [{"bintray-project" : ["org/jfrog/test/multi1", "org/jfrog/test/multi2", "org/jfrog/test/multi3"]}, {"MoveTo" : ["com/jfrog/danapp/module1/1.0-SNAPSHOT/module1-1.0-20141124.150253-1.jar"]}],
   "version": {
     "name" : "3.0",
     "desc" : "This is a version, what of it?",
