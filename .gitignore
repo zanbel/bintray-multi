@@ -14,6 +14,15 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+#artifacts
+*.xml
+*.txt
+*.jar
+*.war
+*.class
+*.json
+*.html
+
 # =========================
 # Operating System Files
 # =========================
@@ -41,3 +50,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
