@@ -1,23 +1,23 @@
 {
-  "repo" : "test",
-  "userOrg" : "",
-  "name" : "auto-upload",
-  "desc" : "I was pushed completly automatically",
-  "websiteUrl" : "https://github.com/feldan/bintray-multi",
-  "issueTrackerUrl" : "https://github.com/feldan/bintray-multi/issues",
-  "vcsUrl" : "https://github.com/feldan/bintray-multi.git",
-  "licenses" : ["MIT"],
-  "labels" : ["cool", "awesome", "gorilla"],
-  "publicDownloadNumbers" : false,
-  "attributes": [{"attr1": ["val1", "val2"]}, {"attr2": ["val3"]}, {"attr3": ["val4"]}],
-  "applyToPaths" : ["bintray-project/org/jfrog/*.*", "MoveTo/com/jfrog/danapp/module/*.jar"],
-  "applyToProps" : [{"upload.prop1": ["val1", "val2"]}, {"upload.prop2"}],
-  "version": {
-    "name" : "3.0",
-    "desc" : "This is a version, what of it?",
-    "released"  : "2014-12-09",
-    "vcsTag" : "3.0",
-    "attributes" : [{"autoPush": "forReal"}],
-    "gpgSign" : false
-  }
+    "repo": "test",
+    "userOrg": "",
+    "name": "auto-upload",
+    "desc": "I was pushed completely automatically",
+    "websiteUrl": "https://github.com/feldan/bintray-multi",
+    "issueTrackerUrl": "https://github.com/feldan/bintray-multi/issues",
+    "vcsUrl": "https://github.com/feldan/bintray-multi.git",
+    "licenses": ["MIT"],
+    "labels": ["cool", "awesome", "gorilla"],
+    "publicDownloadNumbers": false,
+    "attributes": [{"attr1": ["val1", "val2"]}, {"attr2": ["val3"]}, {"attr3": ["val4"]}],
+    "applyToFiles": ["repo1/org/jfrog/*.*", "repo2/org/jfrog/test/module*/*.jar", "repo3/org/jfrog/test/**/*.*", "repo2/org/jfrog/test/**/art.?ar"],
+    "applyToProps": [{"upload.prop1": ["val1", "val2"]}, {"upload.prop2": ["*"]}, {"*": ["valueRegardlessOfProperty"]}],
+    "version": {
+        "name": "3.0",
+        "desc": "This is a version, what of it?",
+        "released": "2014-12-09",
+        "vcsTag": "3.0",
+        "attributes": [{"verAttr1": ["val1", "val2"]}, {"verAttr2": ["val3"]}],
+        "gpgSign": false
+    }
 }
