@@ -19,6 +19,5 @@
     "vcsTag" : "3.0",
     "attributes" : [{"autoPush": "forReal"}],
     "gpgSign" : false
-    "uploadPropsAsVersionAtrributes" : true,
   }
 }
