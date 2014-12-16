@@ -10,8 +10,8 @@
     "labels": ["cool", "awesome", "gorilla"],
     "publicDownloadNumbers": false,
     "attributes": [{"attr1": ["val1", "val2"]}, {"attr2": ["val3"]}, {"attr3": ["val4"]}],
-    "applyToFiles": ["bintray-project/org/jfrog/**/multi?/*.?ar", "bintray-project/org/jfrog/**/*.pom"],
-    "applyToProps": [{"build.name": ["art-bint-multiPom"]}, {"*": ["15"]}],
+    "applyToFiles": ["bintray-project/org/jfrog/**/multi?/**/*.?ar", "bintray-project/org/jfrog/**/*.pom"],
+    "applyToProps": [{"*": ["15"]}],
     "version": {
         "name": "3.0",
         "desc": "This is a version, what of it?",
