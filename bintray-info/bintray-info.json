@@ -10,7 +10,7 @@
     "labels": ["cool", "awesome", "gorilla"],
     "publicDownloadNumbers": false,
     "attributes": [{"attr1": ["val1", "val2"]}, {"attr2": ["val3"]}, {"attr3": ["val4"]}],
-    "applyToProps": [{"*": ["22"]}],
+    "applyToProps": [{"*": ["23"]}],
     "version": {
         "name": "3.0-auto",
         "desc": "This is a version, what of it?",
