@@ -42,7 +42,7 @@
                         <configuration>
                             <artifacts>
                                 <artifact>
-                                    <file>bintray-upload.json</file>
+                                    <file>bintray-info.json</file>
                                     <type>json</type>
                                 </artifact>
                             </artifacts>
