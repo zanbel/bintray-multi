@@ -12,7 +12,7 @@
         <module>multi1</module>
         <module>multi2</module>
         <module>multi3</module>
-	<module>bintray-json</module>
+	<module>bintray-info</module>
     </modules>
 
     <properties>
