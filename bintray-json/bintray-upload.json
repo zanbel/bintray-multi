@@ -13,7 +13,7 @@
     "applyToFiles": ["bintray-project/org/jfrog/**/multi?/**/*.?ar", "bintray-project/org/jfrog/**/*.pom"],
     "applyToProps": [{"*": ["15"]}],
     "version": {
-        "name": "3.0",
+        "name": "3.0-auto",
         "desc": "This is a version, what of it?",
         "released": "2014-12-09",
         "vcsTag": "3.0",
