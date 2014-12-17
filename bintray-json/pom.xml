@@ -1,80 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>bintray-multi</artifactId>
         <version>3.0-SNAPSHOT</version>
     </parent>
-
     <artifactId>bintray-json</artifactId>
     <packaging>pom</packaging>
     <name>Bintray Upload JSON</name>
-
     <licenses>
         <license>
             <name>apache</name>
             <comments>none</comments>
         </license>
     </licenses>
-
     <build>
-		<resources>
-			<resource>
-				<directory>src/resources</directory>
-					<includes>
-						<include>**/*</include> <!-- bintray-upload-2.23.json -->
-					</includes>
-					<targetPath>${basedir}</targetPath> <!-- ${project.build.outputDirectory} -->
-			</resource>
-		</resources>
-	<plugins>
-	<plugin>
-    <groupId>org.codehaus.mojo</groupId>
-    <artifactId>build-helper-maven-plugin</artifactId>
-    <version>1.8</version>
-    <executions>
-      <execution>
-        <id>attach-artifacts</id>
-        <phase>package</phase>
-        <goals>
-          <goal>attach-artifact</goal>
-        </goals>
-        <configuration>
-          <artifacts>
-            <artifact>
-              <file>bintray-upload.json</file>
-              <type>json</type>
-            </artifact>
-          </artifacts>
-        </configuration>
-      </execution>
-    </executions>
-  </plugin>
-  </plugins>	
-  
-		<!-- <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-install-plugin</artifactId>
-            <executions>
-                <execution>
-                    <id>inst_1</id>
-                    <phase>initialize</phase>
-                    <goals>
-                        <goal>install-file</goal>
-                    </goals>
-                    <configuration>
-                        
-                    </configuration>
-                </execution>
-             </executions>
-		</plugin>
-		</plugins> -->
-				
-				
+        <resources>
+            <resource>
+                <directory>src/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                    <!-- bintray-info-2.23.json -->
+                </includes>
+                <targetPath>${basedir}</targetPath>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>attach-artifacts</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>attach-artifact</goal>
+                        </goals>
+                        <configuration>
+                            <artifacts>
+                                <artifact>
+                                    <file>bintray-upload.json</file>
+                                    <type>json</type>
+                                </artifact>
+                            </artifacts>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
-	
-	
-
 </project>
