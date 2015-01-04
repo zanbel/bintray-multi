@@ -26,6 +26,5 @@
 					   {"name": "VerAtt3", "values" : ["2015-01-01T19:43:37+0100"], "type": "date"}],
         "gpgSign": false
     },
-	"applyToFiles": ["bintray-project/org/jfrog/test/**/*.?ar", "bintray-project/org/jfrog/test/**/*.pom"],
-    "applyToProps": [{"*": ["24"]}]
+    "applyToProps": [{"*": ["25"]}]
 }
