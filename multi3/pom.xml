@@ -22,6 +22,7 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>multi2</artifactId>
            <version>${project.parent.version}</version>
+           <scope>bla</scope>
         </dependency>
         
         <dependency>
