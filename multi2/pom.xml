@@ -15,5 +15,14 @@
     <version>3.6-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Multi 2</name>
+    
+    <licenses>
+         <license>
+    <name>Dan1</name>
+    <url>http://www.jfrog.com/bla</url>
+    <distribution>repo</distribution>
+    <comments>Dan1 - multi2</comments>
+  </license>
+    </licenses>
 
 </project>
