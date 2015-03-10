@@ -68,6 +68,12 @@
     </build>
 
     <dependencies>
+     <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib-nodep</artifactId>
+                <version>2.1_3</version>
+                <scope>test</scope>
+            </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
@@ -95,6 +101,19 @@
             <artifactId>spring-aop</artifactId>
             <version>2.5.6</version>
         </dependency>
+        <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.0.10</version>
+                <scope>provided</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.0.10</version>
+                <scope>provided</scope>
+            </dependency>
 
         <!-- dependency with classifier -->
         <dependency>
