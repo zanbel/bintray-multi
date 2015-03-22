@@ -135,4 +135,17 @@
             </plugin>
         </plugins>
     </build>
+	<distributionManagement>
+		<repository>
+			<id>zMachine</id>
+			<name>zMachine-releases</name>
+			<url>http://localhost:8081/artifactory/push2Bintray</url>
+		</repository>
+		<snapshotRepository>
+			<id>zMachine</id>
+			<name>zMachine-snapshots</name>
+			<url>http://localhost:8081/artifactory/push2Bintray</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>

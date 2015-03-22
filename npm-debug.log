@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'bower', null ]
+6 verbose cache add name=undefined spec="bower" args=["bower",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'bower',
+7 verbose parsed url   path: 'bower',
+7 verbose parsed url   href: 'bower' }
+8 silly lockFile 206e3ce5-bower bower
+9 verbose lock bower C:\Users\roy\AppData\Roaming\npm-cache\206e3ce5-bower.lock
+10 silly lockFile 206e3ce5-bower bower
+11 silly lockFile 206e3ce5-bower bower
+12 verbose addNamed [ 'bower', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 1240aab1-bower bower@
+15 verbose lock bower@ C:\Users\roy\AppData\Roaming\npm-cache\1240aab1-bower.lock
+16 silly addNameRange { name: 'bower', range: '*', hasData: false }
+17 verbose request where is /artifactory/api/npm/npm-virtual/bower
+18 verbose request registry http://localhost:8081/
+19 verbose request id 6d2b586099185351
+20 verbose url raw /artifactory/api/npm/npm-virtual/bower
+21 verbose url resolving [ 'http://localhost:8081/',
+21 verbose url resolving   './artifactory/api/npm/npm-virtual/bower' ]
+22 verbose url resolved http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+23 verbose request where is http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+24 info trying registry request attempt 1 at 20:02:27
+25 http GET http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+26 http 404 http://localhost:8081/artifactory/api/npm/npm-virtual/bower
+27 verbose headers { server: 'Artifactory/3.5.1',
+27 verbose headers   'x-artifactory-id': '46db0369bdae4b9a:-3e41f587:14c1e536583:-8000',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'transfer-encoding': 'chunked',
+27 verbose headers   date: 'Sun, 15 Mar 2015 18:02:27 GMT' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { server: 'Artifactory/3.5.1',
+28 silly registry.get     'x-artifactory-id': '46db0369bdae4b9a:-3e41f587:14c1e536583:-8000',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'transfer-encoding': 'chunked',
+28 silly registry.get     date: 'Sun, 15 Mar 2015 18:02:27 GMT' } ]
+29 silly lockFile 1240aab1-bower bower@
+30 silly lockFile 1240aab1-bower bower@
+31 error 404 404 Not Found: artifactory
+31 error 404
+31 error 404 'artifactory' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "bower"
+34 error cwd c:\work\project-examples\push2bintray
+35 error node -v v0.10.32
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
