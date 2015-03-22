@@ -6,6 +6,7 @@
     "desc": "me automatic",
     "website_url": "www.zanbel.net",
     "licenses": ["MIT"],
+    "vcs_url": "https://github.com/zanbel/bintray-multi",
     "labels": ["automatic"],
     "attributes": [{"name": "att1", "values" : ["val1"], "type": "string"},
       {"name": "att2", "values" : [1, 2.2, 4], "type": "number"},
