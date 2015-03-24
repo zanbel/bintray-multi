@@ -2,10 +2,11 @@
   "package": {
     "name": "my-upload",
     "repo": "push2test",
-    "subject": "push2test",
+    "subject": "zanbel",
     "desc": "me automatic",
     "website_url": "www.zanbel.net",
     "licenses": ["MIT"],
+    // "vcs_url": "https://github.com/zanbel/bintray-multi",
     "labels": ["automatic"],
     "attributes": [{"name": "att1", "values" : ["val1"], "type": "string"},
       {"name": "att2", "values" : [1, 2.2, 4], "type": "number"},
@@ -20,6 +21,6 @@
       {"name": "VerAtt3", "values" : ["2015-01-01T19:43:37+0100"], "type": "date"}],
     "gpgSign": false
   },
-  "applyToProps": [{"some.prop": ["someVal"]}],
+  "applyToProps": [],
   "publish": true
 }

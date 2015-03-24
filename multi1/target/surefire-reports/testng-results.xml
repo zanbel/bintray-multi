@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line suite">
       <class name="artifactory.test.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="7" started-at="2015-03-22T11:09:12Z" finished-at="2015-03-22T11:09:12Z">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="7" started-at="2015-03-22T11:21:19Z" finished-at="2015-03-22T11:21:19Z">
         </test-method>
       </class>
     </test>
